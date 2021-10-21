@@ -2,7 +2,7 @@
 
 function charMatch(char, word){
     const regex = new RegExp(char,"g");
-    return word.match(regex).length
+    return word.match(regex).length;
 }
 
 function hasUniqueChars(word){
