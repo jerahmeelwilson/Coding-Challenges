@@ -1,4 +1,4 @@
-const hasMoreVowels = word => word.match(/[aieouAIEOU]/g).length > word.match(/[^aieouAIEOU]/g).length
+const hasMoreVowels = word => word.toLowerCase().match(/[aieou]/g).length > word.toLowerCase().match(/[^aieou]/g).length
 
 console.log(hasMoreVowels("moose"));
 console.log(hasMoreVowels("mice"));
