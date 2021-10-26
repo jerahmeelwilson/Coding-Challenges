@@ -11,7 +11,7 @@ function pigLatin(sentence) {
       words[i] = words[i].substring(1)
     }
   }
-  console.log(words)
+  console.log(words.join(" "))
 }
 pigLatin("porcupines are cute");
 pigLatin("give me an apple");

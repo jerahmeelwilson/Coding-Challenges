@@ -12,7 +12,6 @@ function pigLatin(phrase){
     });
     return newPhrase;
 }
-
 console.log(pigLatin("porcupines are cute"));
 console.log(pigLatin("give me an apple"));
 
