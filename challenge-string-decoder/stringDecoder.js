@@ -2,7 +2,7 @@ function decoder(code){
     let word = "";
     for(let i = 0; i<code.length;i++){
        if(Number(code[i]) || code[i] == 0){
-         word += code[1+i+Number(code[i])];
+         word += code[Number(code[i])+i+1];
        }
     }
     return word;
