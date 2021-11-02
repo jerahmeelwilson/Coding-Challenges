@@ -1,5 +1,5 @@
 // Write your solution below:
-function makeUnique(str){
+function makeUnique2(str){
     let uniqueStr = "";
     for(let i = 0; i<str.length;i++){
         if(!uniqueStr.includes(str[i])){
@@ -9,9 +9,9 @@ function makeUnique(str){
     return uniqueStr
 }
 
-const makeUnique2 = str => [...new Set([...str])].join("");
+const makeUnique = str => [...new Set([...str])].join("");
 
 
 
- console.log(makeUnique2('helloworld'));
- console.log(makeUnique2('iwanttoclimbamountain'));
+ console.log(makeUnique('helloworld'));
+ console.log(makeUnique('iwanttoclimbamountain'));
