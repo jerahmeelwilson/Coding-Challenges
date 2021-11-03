@@ -6,12 +6,12 @@ function makeUnique2(str){
             uniqueStr += str[i];
         }
     }
-    return uniqueStr
-}
+    return uniqueStr;
+};
 
-const makeUnique = str => [...new Set([...str])].join("");
+const makeUnique = str => [...new Set(str)].join("");
 
 
 
- console.log(makeUnique('helloworld'));
- console.log(makeUnique('iwanttoclimbamountain'));
+console.log(makeUnique('helloworld'));
+console.log(makeUnique('iwanttoclimbamountain'));

@@ -18,4 +18,4 @@ function decodeString(cipher){
 console.log(decodeString("1a"));
 console.log(decodeString("3ce"));
 console.log(decodeString("2fcjjm"));
-console.log(decodeString("2y"));
+console.log(decodeString("2yz"));
